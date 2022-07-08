@@ -1,0 +1,245 @@
+@media all and (max-width: 1301px) {
+	.menubar-area ul li {
+        margin: 0 15px;
+    }
+    .menubar-area ul li a {
+        font-size: 24px;
+    }
+}
+@media all and (max-width: 1199px){
+	.menubar-area ul li {
+        margin: 0 10px;
+    }
+    .menubar-area ul li a {
+        font-size: 21px;
+    }
+    .logo-area img {
+        max-width: 90px;
+    }
+    .banner-image img {
+        max-width: 530px;
+    }
+    .connect-wallet {
+        right: 15px;
+    }
+    .connect-wallet img {
+        max-width: 215px;
+    }
+    .header-social ul li a img {
+        max-width: 60px;
+    }
+    .dwaf-title h2 {
+        font-size: 55px;
+    }
+    .project-rori-content h2 {
+        font-size: 55px;
+    }
+    p, li {
+        font-size: 21px;
+    }
+    .project-rori-content h3 {
+        font-size: 38px;
+    }
+    .project-rori-content ul li {
+        font-size: 23px;
+    }
+    .roadmap-content h2 {
+        font-size: 55px;
+    }
+    .our-team-title h2 {
+        font-size: 55px;
+    }
+    .faq-title h2 {
+        font-size: 55px;
+    }
+}
+@media all and (max-width: 991px) {
+	.menubar-area {
+        position: fixed;
+        left: -140%;
+        width: 440px;
+        background: #000;
+        top: 0;
+        margin: 0;
+        height: 100%;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+    }
+    .menubar-area ul {
+        display: block;
+        padding: 0 25px;
+        padding-top: 40px;
+    }
+    .menubar-area ul li {
+        margin: 0 0;
+    }
+    .menubar-area ul li a {
+        font-size: 23px;
+    }
+    .header-top-area {
+        display: block;
+    }
+    .logo-area {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    .offcanvas-menu{
+        left: 0;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+    }
+    .nav-wmore {
+        width: 25px;
+        height: 16px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .close-area {
+        display: block;
+    }
+    .connect-wallet {
+        position: inherit;
+        margin-bottom: 60px;
+    }
+    .header-social ul {
+        margin-bottom: 40px;
+    }
+    .banner-area {
+        padding-top: 165px;
+    }
+    .dwaf-content {
+        max-width: 100%;
+    }
+    .footer-logo {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+@media all and (max-width: 767px) {
+	.content-top::after {
+        width: 60%;
+    }
+    .footer-menu-area {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .footer-menu {
+        margin: 10px 0;
+    }
+}
+@media all and (max-width: 575px) {
+    .logo-area img {
+        max-width: 78px;
+    }
+    .menubar-area {
+        width: 90%;
+    }
+    .banner-content h1 {
+        font-size: 55px;
+    }
+    .header-social ul li a img {
+        max-width: 45px;
+    }
+    .header-social ul li {
+        margin: 0 10px;
+    }
+    .banner-image img {
+        max-width: 315px;
+    }
+    p, li {
+        font-size: 19px;
+    }
+    .content-bottom::after {
+        width: 340px;
+        height: 86px;
+    }
+    .dwaf-eclipse-area {
+        padding: 60px 0 30px 0;
+    }
+    .content-bottom {
+        margin-top: 40px;
+    }
+    .dwaf-title h2 {
+        font-size: 40px;
+    }
+    .project-rori-area {
+        padding: 40px 0 88px;
+    }
+    .project-rori-content h2 {
+        font-size: 45px;
+    }
+    .project-rori-content h3 {
+        font-size: 30px;
+    }
+    .project-rori-content ul li {
+        font-size: 20px;
+    }
+    .roadmap-content h2 {
+        font-size: 45px;
+    }
+    .roadmaps-area {
+        background: url(../images/bg/roadmap.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 40px 0 78px 0;
+        text-align: center;
+    }
+    .roadmap-single-item {
+        position: relative;
+        margin-top: 60px;
+        width:100%;
+        top:inherit !important;
+        left: inherit !important;
+        right: inherit !important;
+    }
+    .roadmap-single-item:after{
+        position: absolute;
+        content: "";
+        width: 2px;
+        height: 60px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background: #ff1616;
+        top: -55px;
+    }
+    .roadmaps-image img {
+        display: none;
+    }
+    .mobile-years {
+        display: block !important;
+        font-size: 40px !important;
+        padding-bottom: 0 !important;
+    }
+    .our-team-title h2 {
+        font-size: 45px;
+    }
+    .team-single-item img {
+        max-width: 140px;
+    }
+    .team-single-item h3 {
+        font-size: 16px;
+    }
+    .comming-soon-content h1 {
+        font-size: 45px;
+    }
+    .comming-soon-content p {
+        font-size: 25px;
+    }
+    .faq-title h2 {
+        font-size: 45px;
+    }
+}
+@media all and (max-width: 450px) {
+	
+}
