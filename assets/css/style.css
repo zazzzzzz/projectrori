@@ -613,3 +613,24 @@ img{
 .copyright-content p {
 	font-size: 20px;
 }
+
+.whitepaper-button {
+	text-align: center;
+	position: relative;
+	padding-top: 90px;
+}
+.whitepaper-button a {
+	background: #ff1616;
+	padding: 3px 30px;
+	color: #FFF;
+	font-size: 30px;
+	line-height: 1;
+	height: 55px;
+	display: inline-block;
+	transition: 0.5s;
+}
+.whitepaper-button a:hover {
+	background: #00fcff;
+	transition: 0.5s;
+	color: #000;
+}
